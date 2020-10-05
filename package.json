@@ -58,7 +58,8 @@
     "settle-promise": "1.0.0",
     "react-dev-utils": "10.2.1",
     "bfj": "7.0.2",
-    "pnp-webpack-plugin": "1.6.4"
+    "pnp-webpack-plugin": "1.6.4",
+    "html-webpack-plugin": "4.5.0"
   },
   "husky": {
     "hooks": {
