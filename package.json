@@ -48,7 +48,8 @@
     "tempy": "^0.2.1",
     "wait-for-localhost": "^3.1.0",
     "web-vitals": "^0.2.2",
-    "webpack": "4.44.2"
+    "webpack": "4.44.2",
+    "babel-loader": "8.1.0"
   },
   "husky": {
     "hooks": {
