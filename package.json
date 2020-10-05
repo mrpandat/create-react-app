@@ -1,8 +1,7 @@
 {
   "engines": {
-    "node": "13.1.0",
-    "npm": "6.12.1",
-    "yarn": "1.19.1"
+    "node": "10.16.0",
+    "npm": "6.12.1"
   },
   "private": true,
   "workspaces": [
@@ -14,7 +13,7 @@
     "create-react-app": "node tasks/cra.js",
     "e2e": "tasks/e2e-simple.sh",
     "e2e:docker": "tasks/local-test.sh",
-    "postinstall": "cd packages/react-error-overlay/ && yarn build:prod",
+    "postinstall": "cd packages/react-error-overlay/ && npm run build:prod",
     "publish": "tasks/publish.sh",
     "start": "cd packages/react-scripts && node bin/react-scripts.js start",
     "screencast": "node ./tasks/screencast.js",
