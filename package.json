@@ -56,7 +56,8 @@
     "anser": "2.0.0",
     "raw-loader": "4.0.1",
     "settle-promise": "1.0.0",
-    "react-dev-utils": "10.2.1"
+    "react-dev-utils": "10.2.1",
+    "bfj": "7.0.2"
   },
   "husky": {
     "hooks": {
